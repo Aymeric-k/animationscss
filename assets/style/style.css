@@ -1,1 +1,43 @@
+h1, h2{
+    text-align: center;
+    padding: 15px 0 15px;
+}
+main{
+    display: flex;
+}
+#menu{
+    flex: 1;
+}
+#firstcolumn,#secondcolumn{
+    flex: 6;
+}
+#vide{
+    flex:0.5;
+}
+article{
+    background: lightgray;
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+#carre{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    animation-name: carrequitourne;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+@keyframes carrequitourne {
+    from{
+        transform: rotate(0deg);
+        background-color: yellow;
+    }
+    to{
+        transform: rotate(360deg);
+        background-color: red;
+    }
+}
 

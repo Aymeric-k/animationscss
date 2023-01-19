@@ -33,7 +33,7 @@ p {
 header{
     height: 250px;
     background-image: url(../img/matrix.jpg);
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0 auto;
 }
 
