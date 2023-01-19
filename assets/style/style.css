@@ -90,3 +90,34 @@ article{
 #menu div:hover{
         height: 800px;
     }
+#loading{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+.boule{
+        margin: 50px 0;
+        border: 2px solid black;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        animation-name: chargeboule;
+        animation-iteration-count: infinite;
+        animation-duration: 3s;
+        background-color: black;
+}
+    
+@keyframes chargeboule {
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: white;
+    }
+}
+.boule:nth-child(2){
+    animation-delay: 1s;
+}
+.boule:nth-child(3){
+    animation-delay: 2s;
+}
