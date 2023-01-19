@@ -184,3 +184,91 @@ article{
 #queue div:nth-child(6){
     animation-delay: 5s;
 }
+
+#rotate{
+    position: relative;
+    height:400px;
+}
+#rotate div{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+   
+}
+.content{
+    perspective: 500px;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation-name: carousalé;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.content div {
+     border: 2px solid;
+     border-radius: 5px;
+}
+#carousel1{
+    transform: rotateY(40deg) translateZ(60px);
+    background-color: rgb(145, 224, 250);
+ }
+#carousel2{
+    transform: rotateY(80deg) translateZ(60px);
+    background-color: lightslategray
+}
+#carousel3{
+    transform: rotateY(120deg) translateZ(60px);
+    background-color: blanchedalmond;
+}
+#carousel4{
+    transform: rotateY(160deg) translateZ(60px);
+    background-color: lightcoral;
+}
+#carousel5{
+    transform: rotateY(200deg) translateZ(60px);
+    background-color: lightpink;
+}
+#carousel6{
+    transform: rotateY(240deg) translateZ(60px);
+    background-color: lightsalmon;
+}
+#carousel7{
+    transform: rotateY(280deg) translateZ(60px);
+    background-color: lightseagreen;
+}
+#carousel8{
+    transform: rotateY(320deg) translateZ(60px);
+    background-color: palegoldenrod;
+}
+#carousel9{
+    transform: rotateY(360deg) translateZ(60px);
+    background-color: palevioletred;
+}
+
+@keyframes carousalé {
+    0%{
+        transform: rotateX(0deg) rotateY(0deg);
+        top: 15%;
+        left: 10%;
+    }
+    25%{
+        transform: rotateX(80deg) rotateY(80deg);
+        top: 15%;
+        left: 85%;
+    }
+    50%{
+        transform: rotateX(160deg) rotateY(160deg);
+        top: 85%;
+        left: 85%;
+    }
+    75%{
+        transform: rotateX(240deg) rotateY(240deg);
+        top: 85%;
+        left: 10%;
+    }
+    100%{
+        transform: rotateX(360deg) rotateY(360deg);
+        top: 15%;
+        left:10%;
+    }
+}
