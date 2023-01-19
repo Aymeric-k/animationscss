@@ -40,4 +40,42 @@ article{
         background-color: red;
     }
 }
+#tube{
+    border: 1px green solid;
+    height: 150px;
+    width: 40px;
+    margin: auto;
+}
+#balle{
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    animation-name: ballequirebondit;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes ballequirebondit {
+    0%{
+        transform: translateY(0px);
+    }
+    20%{
+        transform: translateY(110px)
+    }
+    40%{
+        transform: translateY(40px)
+    }
+    60%{
+        transform: translateY(110px)
+    }
+    80%{
+        transform: translateY(80px)
+    }
+    90%{
+        transform: translateY(110px);
+    }
+    100%{
+        transform: translateY(110px);
+    }
 
