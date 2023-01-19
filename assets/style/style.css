@@ -1,3 +1,4 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Mise en page ~~~~~~~~~~~~~~~~~~~~~~~~ */
 h1, h2{
     text-align: center;
     padding: 15px 0 15px;
@@ -19,7 +20,7 @@ article{
     border-radius: 15px;
     padding-bottom: 20px;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Exercice 1 : Carré ~~~~~~~~~~~~~~~~~~~~~~~~ */
 #carre{
     height: 100px;
     width: 100px;
@@ -40,6 +41,7 @@ article{
         background-color: red;
     }
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Exercice 2 : Balle ~~~~~~~~~~~~~~~~~~~~~~~~ */
 #tube{
     border: 1px green solid;
     height: 150px;
@@ -79,6 +81,7 @@ article{
         transform: translateY(110px);
     }
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Exercice 3 Menu ~~~~~~~~~~~~~~~~~~~~~~~~ */
 #menu div{
         background-color: #2f2f2f;
         color: white;
@@ -95,6 +98,7 @@ article{
         margin: auto;
         justify-content: center;
     }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Exercice 4 Loader ~~~~~~~~~~~~~~~~~~~~~~~~ */
 .boule{
         margin: 50px 0;
         border: 2px solid black;
@@ -126,6 +130,7 @@ article{
     height: 300px;
     box-sizing: border-box;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Exercice 5 Faire la queue ~~~~~~~~~~~~~~~~~~~~~~~~ */
 #queue div{
     position: absolute;
     top: 0px;
@@ -184,7 +189,7 @@ article{
 #queue div:nth-child(6){
     animation-delay: 5s;
 }
-
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Exercice 6 Carousel ~~~~~~~~~~~~~~~~~~~~~~~~ */
 #rotate{
     position: relative;
     height:400px;
