@@ -78,4 +78,15 @@ article{
     100%{
         transform: translateY(110px);
     }
-
+}
+#menu div{
+        background-color: #2f2f2f;
+        color: white;
+        text-align: center;
+        height: 20px;
+        border-radius: 15px;
+        transition: height 3s;
+    }
+#menu div:hover{
+        height: 800px;
+    }
